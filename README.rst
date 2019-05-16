@@ -1,13 +1,6 @@
-I had to write some SOAP web services but did not find any good tool.
+[Fork of baverman/dropthesoap]
 
-* soaplib/rpclib. Horrible (really horrible) schema. No any control on
-  element order, meaningless wrappers and superfluous types.
-
-* ZSI. Petrified mammoth shit.
-
-* pyws. Suitable for simple tasks only.
-
-So there is the DropTheSoap.
+# DropTheSoap features:
 
 * One-to-one mapping to XSD schema.
 
@@ -15,3 +8,11 @@ So there is the DropTheSoap.
   your classes. Simply write in XSD notation.
 
 * On-the-fly WSDL generation.
+
+# Fork edits:
+
+* Support for Python 3.5+
+
+* Support for Async
+
+* Support for Large file
